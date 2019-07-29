@@ -21,7 +21,6 @@ public:
 	Vector3D operator-(const Vector3D & secondVector) const;
 	Vector3D operator-() const;
 	Vector3D operator*(double number) const;
-
 	
 	friend Vector3D operator*(double number, const Vector3D & vector);
 	friend std::istream & operator>>(std::istream & iStream, Vector3D & vector);
